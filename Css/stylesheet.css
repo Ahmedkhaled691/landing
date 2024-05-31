@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.color{
+    color: rgb(17, 27, 71) !important;
+}
+.bg-color{
+    background-color: rgb(17, 27, 71) !important;
+}
+.MainPage{
+    background-image: url(../Image/Group.png), url(../Image/blob-haikei\(2\).png);
+    background-size:  50% 50%,95% 100%;
+  background-position: right center, right top;
+  background-repeat: no-repeat,no-repeat;
+    min-height: calc(100vh - 0px);
+}
+p{
+    color: rgb(176, 183, 208);
+}
+.MainText{
+    position: absolute;
+    transform: translateY(60%);
+    width: 500px !important;
+}
+.BtnMain .btn-outline-light{
+    border: 2px solid rgb(17, 27, 71);
+    color: rgb(17, 27, 71);
+}
+.EndSec{
+    background-color: rgb(242, 245, 255);
+    min-height: calc(900px - 0px);
+}
+footer{
+    background-color: rgb(231, 236, 255);
+    min-height: calc(200px - 0px);
+}
+
+
+
+@media (max-width:700px) {
+    .Drop {
+        color:rgb(44, 44, 44);
+    }
+}
